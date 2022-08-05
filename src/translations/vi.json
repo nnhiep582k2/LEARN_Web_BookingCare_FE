@@ -1,0 +1,118 @@
+{
+    "home-header": {
+        "specialty": "Chuyên khoa",
+        "search-doctor": "Tìm bác sỹ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner": {
+        "title-1": "NỀN TẢNG Y TẾ",
+        "title-2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "child-1": "Khám chuyên khoa",
+        "child-2": "Khám từ xa",
+        "child-3": "Khám tổng quát",
+        "child-4": "Xét nghiệm y học",
+        "child-5": "Sức khỏe tinh thần",
+        "child-6": "Khám nha khoa",
+        "child-7": "Gói phẫu thuật",
+        "child-8": "Sản phẩm y tế"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-chedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "save": "Lưu user",
+        "edit": "Lưu thay đổi"
+    },
+    "home-page": {
+        "outstanding-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-infor": "Tìm kiếm",
+        "specialty-popular": "Chuyên khoa phổ biến",
+        "more": "Xem thêm"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-doctor": "Chọn bác sĩ",
+        "choose-date": "Chọn ngày",
+        "save": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "no-schedule": "Bác sĩ không có lịch hẹn trong thời gian này. Vui lòng chọn thời gian khác!",
+            "choose": "Chọn ",
+            "book-free": " và đặt (miễn phí)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "ĐỊA CHỈ KHÁM",
+            "price": "GIÁ KHÁM:",
+            "detail": "Xem chi tiết",
+            "payment": "Bệnh viện có thanh toán bằng hình thức: ",
+            "hide-price": "Ẩn bảng giá"
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên lạc",
+            "reason": "Lý do khám",
+            "dateOfBirth": "Ngày sinh",
+            "gender": "Giới tính",
+            "confirm": "Xác nhận",
+            "cancel": "Hủy",
+            "price-booking": "Miễn phí đặt lịch",
+            "price": "Giá khám:"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin doctor",
+            "select-doctor": "Chọn bác sĩ",
+            "intro": "Thông tin giới thiệu:",
+            "add": "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "name-clinic": "Tên phòng khám",
+            "address-clinic": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+            "specialty": "Chọn chuyên khoa",
+            "select-clinic": "Chọn phòng khám"
+        }
+    }
+}

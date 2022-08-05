@@ -1,0 +1,188 @@
+.slick-prev,
+.slick-next {
+    opacity: 0.8;
+    z-index: 3 !important;
+    width: 44px !important;
+    height: 48px !important;
+    border: 2px solid #d7d7d7 !important;
+    background: white !important;
+
+    &::before {
+        font-family: FontAwesome !important;
+        color: grey !important;
+    }
+
+    &:hover {
+        background: white !important;
+        opacity: 1;
+    }
+}
+
+.section-share {
+    &.section-specialty,
+    &.section-outstanding-doctor {
+        background: #f5f5f5;
+    }
+
+    .section-body {
+        .section-customize {
+            padding: 5px;
+            cursor: pointer;
+
+            &:hover .section-desc {
+                color: #45c3d2;
+            }
+
+            .customize-border {
+                padding: 20px 0;
+                border: 1px solid #dadada;
+            }
+
+            &.section-outstanding-doctor {
+                .section-desc {
+                    font-size: 12px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .outer-bg {
+                .bg-image.section-outstanding-doctor {
+                    margin: 0 auto;
+                    border-radius: 50%;    
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+
+            .section-desc {
+                color: rgb(83, 83, 83);
+                text-transform: capitalize;
+                margin-top: 6px;
+            }
+
+            .bg-image {
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+
+                &.section-specialty {
+                    // background-image: url('../../assets/specialty/co-xuong-khop.jpg');
+                }
+
+                &.section-medical-facility {
+                    // background-image: url('../../assets/medical-facility/benh-vien-thu-cuc.jpg');
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url('../../assets/outstanding-doctor/bsckii-tran-minh-khuyen.jpg');
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/handbook/nha-khoa-quan-binh-thanh-tot.jpg');
+                }
+            }
+        }
+    }
+}
+
+.slick-prev {
+    left: -10px !important;
+}
+
+.slick-next {
+    right: -10px !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share {
+    min-height: 300px;
+
+    &.section-outstanding-doctor {
+        height: 370px;
+    }
+
+    .section-container {
+        height: 100%;
+        margin: 0 102px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            padding: 26px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            button {
+                background: rgb(226, 226, 226);
+                border: none;
+                outline: none;
+                text-transform: uppercase;
+                font-size: 12px;
+                color: rgb(83, 83, 83);
+                padding: 10px 14px;
+
+                &:hover {
+                    color: white;
+                    background: rgb(168, 168, 168);
+                }
+            }
+        }
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 14px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.section-about {
+    padding: 0 106px 40px;    
+    background: #f5f5f5;
+    
+    .section-about-header {
+        padding: 40px 0;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .content-left {
+            padding-right: 26px;
+        }
+
+        .content-right {
+            text-align: justify;
+            font-style: italic;
+            font-size: 18px;
+            padding-left: 26px;
+        }
+    }
+}
+
+.header-logo {
+    cursor: pointer;
+}
